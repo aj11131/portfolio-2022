@@ -1,0 +1,47 @@
+.header {
+  color: var(--color-primary);
+  height: 6rem;
+  font-size: 1.6rem;
+  text-transform: uppercase;
+
+  &__content {
+    width: var(--container-width);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    height: 100%;
+  }
+
+  &__welcome {
+    font-size: 2.5rem;
+    letter-spacing: 0.2rem;
+  }
+
+  &__nav {
+    display: flex;
+
+    &:not(:last-child) {
+      margin-right: 2rem;
+    }
+  }
+
+  &__nav-item {
+    padding: 0 3rem;
+  }
+
+  &__nav-link,
+  &__link:visited {
+    text-decoration: none;
+    color: var(--color-grey-light-1);
+  }
+}
+
+.video {
+  position: relative;
+  width: 100%;
+  height: 40rem;
+}
+
+.about {
+}
