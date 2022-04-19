@@ -1,21 +1,20 @@
 .header {
-  color: var(--color-primary);
+  color: var(--color-grey-light-1);
   height: 6rem;
   font-size: 1.6rem;
   text-transform: uppercase;
 
   &__content {
-    width: var(--container-width);
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 0 auto;
     height: 100%;
   }
 
   &__welcome {
     font-size: 2.5rem;
     letter-spacing: 0.2rem;
+    color: var(--color-primary);
   }
 
   &__nav {
@@ -40,8 +39,28 @@
 .video {
   position: relative;
   width: 100%;
-  height: 40rem;
+  height: 30rem;
 }
 
 .about {
+  &__content {
+  }
+
+  &__list {
+    margin: 2rem 0 2rem 3rem;
+    list-style: decimal;
+  }
+
+  &__list-item {
+    font-size: 1.5rem;
+  }
+}
+
+.projects {
+  background-color: var(--color-background-secondary);
+
+  &__card-container {
+    display: flex;
+    justify-content: space-between;
+  }
 }

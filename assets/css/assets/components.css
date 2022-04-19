@@ -13,4 +13,68 @@
   object-fit: cover;
 }
 
+.text {
+  font-size: 1.6rem;
+  font-weight: 300;
+}
+
+.helper-text {
+  font-size: 1.6rem;
+}
+
+.section-title {
+  font-size: 3rem;
+  text-transform: uppercase;
+  letter-spacing: 0.5rem;
+}
+
+.section-sub-title {
+  font-size: 1.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.4rem;
+  font-weight: 300;
+}
+
+.card {
+  height: 40rem;
+  background-color: var(--color-background);
+  flex: 1;
+  margin: 0 2rem 4rem 2rem;
+  transition: all 0.2s;
+  border-radius: 5px;
+}
+.card__title {
+  font-size: 1.8rem;
+}
+.card:hover {
+  transform: scale(1.05);
+}
+
+.form__input {
+  font-size: 1.5rem;
+  color: inherit;
+  font-family: inherit;
+  padding: 1.5rem 2rem;
+  border-radius: 2px;
+  background-color: var(--color-background-secondary);
+  border: 1px solid var(--color-grey-light-1);
+  width: 100%;
+  display: block;
+  transition: all 0.3s;
+}
+.form__input:not(:last-child) {
+  margin-right: 6rem;
+}
+.form__input:focus {
+  outline: none;
+}
+.form__input::-webkit-input-placeholder {
+  color: var(--color-grey-light-4);
+}
+.form__row {
+  margin: 4rem 0;
+  display: flex;
+  flex: 1;
+}
+
 /*# sourceMappingURL=components.css.map */

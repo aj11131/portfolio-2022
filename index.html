@@ -10,7 +10,7 @@
 </head>
 <body>
     <header class="header">
-        <div class="header__content">
+        <div class="header__content container">
             <p class="header__welcome">Welcome</p>
             <ul class="header__nav">
                 <li class="header__nav-item">
@@ -28,7 +28,7 @@
             </ul>
         </div>
     </header>
-    <section class="video">
+    <section class="video margin-bottom-medium">
         <div class="bg-video">
             <video class="bg-video__content" autoplay muted loop>
                 <source src="assets/video.mp4" type="video/mp4">
@@ -36,8 +36,68 @@
             </video>
         </div>
     </section>
-    <section class="about">
+    <section class="about margin-bottom-medium">
+        <div class="about__content container">
+            <h1 class="section-title margin-bottom-small">About me</h1>
+            <h3 class="section-sub-title margin-top-small margin-bottom-small">Overview</h3>
+            <p class="helper-text">Below I have listed three traits I believe make me an effective software engineer:</p>
+            <ol class="about__list">
+                <li class="about__list-item">Problem Solver - I am an expert problem solver.</li>
+                <li class="about__list-item">Adaptable - I am extremely adaptable and able to quickly pick up new technologies and processes</li>
+                <li class="about__list-item">Generalist - I like to understand how all parts of a system operate (i.e. data storage, APIs, and client). I believe having at least an understanding of how all these components function allow you produce higher quality code.</li>
+            </ol>
+            <h3 class="section-sub-title margin-top-small margin-bottom-small">My Story</h3>
+            <p class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat.</p>
+        </div>
+    </section>
+    <section class="projects margin-bottom-medium">
+        <div class="projects__content container">
+            <h1 class="section-title margin-top-small margin-bottom-small">Projects</h1>
+            <h3 class="section-sub-title margin-bottom-medium">View some of my work below</h3>
+            <div class="projects__card-container margin-bottom-medium">
+                <div class="card">
+                    <div class="card__title">
+                        Project 1
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card__title">
+                        Project 2
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card__title">
+                        Project 3
+                    </div>
+                </div>  
+            </div>
+        </div>
+    </section>
+    <section class="contact padding-bottom-medium">
+        <div class="contact__content container">
+            <h1 class="section-title margin-top-small margin-bottom-small">Contact Me</h1>
 
+            <div class="form">
+                <div class="form__row">
+                        <label for="first-name"></label>
+                        <input id="first-name" placeholder="First Name" class="form__input" type="text">
+
+                        <label for="last-name"></label>
+                        <input id="last-name" placeholder="Last Name" class="form__input" type="text">
+                </div>
+                <div class="form__row">
+                    <label for="email"></label>
+                    <input id="email" placeholder="Email" class="form__input" type="text">
+                    
+                    <label for="phone"></label>
+                    <input id="phone" placeholder="Phone Number" class="form__input" type="text">
+                </div>
+                <div class="form__row">
+                    <label for="message"></label>
+                    <textarea id="message" placeholder="Type Message" class="form__input" type="text">
+                </div>
+            </div>
+        </div>
     </section>
 </body>
 </html>
