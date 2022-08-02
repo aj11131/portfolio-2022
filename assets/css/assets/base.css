@@ -38,7 +38,7 @@ img {
 }
 
 :root {
-  --color-primary: #1060a6;
+  --color-primary: #2e9dff;
   --color-primary-light: #668cad;
   --color-primary-dark: #6a859c;
   --color-background: rgb(33, 35, 37);
@@ -48,11 +48,14 @@ img {
   --color-grey-light-3: #f0eeee;
   --color-grey-light-4: #ccc;
   --color-grey-dark-1: #333;
-  --color-grey-dark-2: #777;
-  --color-grey-dark-3: #999;
+  --color-grey-dark-2: #555;
+  --color-grey-dark-3: #777;
+  --color-grey-dark-4: #999;
   --shadow-dark: 0 2rem 6rem rgba(0, 0, 0, 0.3);
   --shadow-light: 0 2rem 5rem rgba(0, 0, 0, 0.06);
   --container-width: 70%;
+  --default-font-size: 1.6rem;
+  --link-font-size: 2rem;
 }
 
 /*# sourceMappingURL=base.css.map */
